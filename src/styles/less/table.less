@@ -1,0 +1,26 @@
+.main {
+    composes: w_100 f16 bg-white from './common.less';
+}
+
+.header {
+    composes: white from './common.less';
+    background: #666;
+    white-space: nowrap;
+}
+
+.row {
+    composes: h30 from './common.less';
+}
+
+.cell {    
+    composes: p5 from './common.less';
+    border: 1px solid #F3F2ED;
+}
+
+.header-cell {
+    composes: p5 from './common.less';
+}
+
+.nodata {
+    composes: tac red fb f20 from './common.less';
+}

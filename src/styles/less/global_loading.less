@@ -1,0 +1,22 @@
+.main {
+    composes: psf from './common.less';
+    bottom: 0;
+    right: 0;
+}
+
+.main--hidden {
+    composes: dn from './common.less';
+}
+
+.icon {
+    composes: fl from './common.less';
+    width: 50px;
+    height: 50px;
+    background: url('../../images/global-loading.svg');
+    background-size: contain;
+}
+
+.text {
+    composes: fl from './common.less';
+    line-height: 50px;
+}

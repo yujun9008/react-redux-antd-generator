@@ -1,0 +1,11 @@
+export const GET_DATA_REQUESTED = 'home/home/GET_DATA_REQUESTED';
+export const GET_DATA_SUCCEEDED = 'home/home/GET_DATA_SUCCEEDED';
+export const GET_DATA_FAILED = 'home/home/GET_DATA_FAILED';
+export const SHOW_TABLE_LOADING = 'SHOW_TABLE_LOADING';
+
+export default{
+    GET_DATA_REQUESTED,
+    GET_DATA_SUCCEEDED,
+    GET_DATA_FAILED,
+    SHOW_TABLE_LOADING
+}

@@ -1,0 +1,12 @@
+export const SHOW_GLOBAL_LOADING = 'SHOW_GLOBAL_LOADING';
+export const HIDE_GLOBAL_LOADING = 'HIDE_GLOBAL_LOADING';
+
+export default {
+    SHOW_GLOBAL_LOADING,
+    HIDE_GLOBAL_LOADING
+}
+
+
+
+
+

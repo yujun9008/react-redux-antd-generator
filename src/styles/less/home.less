@@ -1,0 +1,19 @@
+.title {
+    composes: tac from './common.less';
+}
+
+.button {
+    composes: w120 h30 l30 tac white from './common.less';
+    background: #49a0a3;
+    border-color: #49a0a3;
+    border-radius: 1px;
+}
+
+.button--ml-15 {
+    composes: button;
+    composes: ml15 from './common.less';
+}
+
+.table-container {
+    composes: m15 from './common.less';
+}
